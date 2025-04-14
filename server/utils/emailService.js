@@ -177,7 +177,7 @@ const sendNewStudentNotification = async (studentData, adminEmail) => {
 
     // Email options
     const mailOptions = {
-      from: '"Connection Folio System" <prashantsh123@gmail.com>',
+      from: '"Connection Folio System" <lakshyaprlk@gmail.com>',
       to: adminEmail,
       subject: '🎓 New Student Registration - Connection Folio',
       html: studentInfo,

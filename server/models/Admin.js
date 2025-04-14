@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 
 // Hardcode the authorized emails directly in the model for absolute enforcement
 const AUTHORIZED_EMAILS = [
-  'prahantsh123@gmail.com',
-  'prahantsh7014@gmail.com'
+  'lakshyaprlk@gmail.com',
+  'lakshyaprlk@gmail.com'
 ];
 
 // Create a schema without depending on external modules

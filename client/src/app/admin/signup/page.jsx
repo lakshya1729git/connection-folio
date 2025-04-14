@@ -12,8 +12,8 @@ import { AtSign, Lock, User, AlertTriangle, ShieldCheck, Check, X } from "lucide
 
 // Hardcode the authorized emails directly in the frontend for immediate validation
 const AUTHORIZED_EMAILS = [
-  'prahantsh123@gmail.com',
-  'prahantsh7014@gmail.com'
+  'lakshyaprlk@gmail.com',
+  'lakshyaprlk@gmail.com'
 ];
 
 export default function AdminSignupPage() {
@@ -70,7 +70,7 @@ export default function AdminSignupPage() {
     
     try {
       // Send registration request to backend
-      const response = await fetch('https://connection-folio-1.onrender.com/api/admins/register', {
+      const response = await fetch('http://localhost:5000/api/admins/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

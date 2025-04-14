@@ -30,8 +30,11 @@ const startServer = async () => {
     console.error('🛑 Server startup failed due to database connection issue');
     process.exit(1);
   }
+  app.listen(PORT, () => {
+    console.log(`🚀 Server running on http://localhost:${PORT}`);
+  });
   
-  app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+  // app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
 };
 
 startServer();
